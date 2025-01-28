@@ -32,9 +32,10 @@ class FirstPage extends StatelessWidget {
                     color: Colors.pink,
                   ),
                   border: OutlineInputBorder(),
-                  icon: Icon(
+                  suffixIcon: Icon(
                     Icons.person,
                     size: 40,
+                    //color: Colors.white70,
                   )),
             ),
             SizedBox(height: 20),
@@ -45,17 +46,17 @@ class FirstPage extends StatelessWidget {
                   fillColor: Colors.white,
                   labelStyle: TextStyle(color: Colors.pink),
                   border: OutlineInputBorder(),
-                  icon: Icon(Icons.add_ic_call, size: 40)),
+                  suffixIcon: Icon(Icons.add_ic_call, size: 40)),
             ),
             SizedBox(height: 20),
             TextField(
               decoration: InputDecoration(
-                  labelText: "E Mail",
+                  labelText: "E Mail ID",
                   filled: true,
                   fillColor: Colors.white,
                   labelStyle: TextStyle(color: Colors.pink),
                   border: OutlineInputBorder(),
-                  icon: Icon(
+                  suffixIcon: Icon(
                     Icons.mail_outline,
                     size: 40,
                   )),
