@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'package:flutter_task1/page2.dart';
 
 void main() {}
 
@@ -12,7 +11,7 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey,
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(100),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
